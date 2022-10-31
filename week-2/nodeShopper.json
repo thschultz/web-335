@@ -1,0 +1,39 @@
+{
+    "customer": {
+        "_id": 1,
+        "firstName": "Frodo",
+        "lastName": "Baggins",
+        "dateOfBirth": "12-25-1985",
+        "username": "onering365",
+        "invoice": [
+            {
+                "_id": 1,
+                "createDate": "05/18/2010",
+                "shipDate": "11/27/2015",
+                "subtotal": 23.75,
+                "lineItem": [
+                    {
+                        "_id": 1,
+                        "productName": "Backpack",
+                        "price": 23.75,
+                        "qty": 1
+                    }
+                ]
+            },
+            {
+                "_id": 2,
+                "createDate": "4/14/2018",
+                "shipDate": "04/21/2018",
+                "subtotal": 23.75,
+                "lineItem": [
+                    {
+                        "_id": 1,
+                        "productName": "Socks",
+                        "price": 23.75,
+                        "qty": 1
+                    }
+                ]
+            }
+        ]
+    }
+}

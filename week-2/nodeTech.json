@@ -1,0 +1,31 @@
+{
+    "student": {
+        "studentId": 1,
+        "firstName": "Eric",
+        "lastName": "Cartman",
+        "enrollment": [
+            {
+                "term": 1,
+                "gpa": 1.8,
+                "startDate": "05/18/2018",
+                "endDate": "07/15/2018",
+                "course": [
+                    {
+                        "courseId": 100,
+                        "description": "History 101",
+                        "instructor": "Mr. Garrison",
+                        "score": 71,
+                        "letterGrade": "C"
+                    },
+                    {
+                        "courseId": 123,
+                        "description": "Math 101",
+                        "instructor": "Mr. Garrison",
+                        "score": 65,
+                        "letterGrade": "D"
+                    }
+                ]
+            }
+        ]
+    }
+}
