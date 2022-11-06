@@ -1,0 +1,40 @@
+[
+    {
+        "id": "1",
+        "name": "Mondo's Metals Publishing Company",
+        "code": 123456,
+        "address": "123 Fake Street",
+        "book": [
+            {
+                "id": "1",
+                "isbn": "555-555-555",
+                "name": "Welding Metals",
+                "price": 9.99,
+                "author": [
+                    {
+                        "id": "1",
+                        "firstName": "Matthew",
+                        "lastName": "Raimondo",
+                        "phone": "123-123-1234",
+                        "email": "m.raimondo@gmail.com"
+                    }
+                ]
+            },
+            {
+                "id": "2",
+                "isbn": "555-555-556",
+                "name": "Welding at Dusk",
+                "price": 14.99,
+                "author": [
+                    {
+                        "id": "1",
+                        "firstName": "Matthew",
+                        "lastName": "Raimondo",
+                        "phone": "123-123-1234",
+                        "email": "m.raimondo@gmail.com"
+                    }
+                ]
+            }
+        ]
+    }
+]
